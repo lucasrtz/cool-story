@@ -24,5 +24,13 @@ function mudarEstilos()  {
     text.style.fontSize = "15px";
 
 }
+function mudarEstilosNot() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+  }
+  function mudarEstilosClaro() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+  }
 
 carregarConteudo(conteudoA)

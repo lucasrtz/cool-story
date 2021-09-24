@@ -10,7 +10,7 @@ nav{
     height: 100px;
     width: 165%;
     z-index: 500;
-    margin-left: -20px;
+    margin-left: -9px;
     background-color: rgb(54, 54, 54);
     border-bottom: 1px solid rgb(148, 148, 148);
 }
@@ -37,5 +37,12 @@ nav{
     transition: 1s;
     top: 20px;
 }
+.dark-mode {
+    background-color: black;
+    color: white;}
+    .white-mode{
+        background-color: white;
+        color: black;
+    }
 /* fim do cabeçalho */
 
