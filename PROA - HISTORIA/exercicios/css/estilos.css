@@ -1,25 +1,27 @@
 * {
     font-family: arial;
+    margin: 0px;
 }
 
 
 /*cabeçalho: */
 nav{
-    position: fixed;
+    position: absolute;
     top: 0;
     height: 100px;
-    width: 165%;
+    width: 102vw;
     z-index: 500;
-    margin-left: -9px;
+    margin-left: -20px;
     background-color: rgb(54, 54, 54);
     border-bottom: 1px solid rgb(148, 148, 148);
 }
 
 .nav-container{
     max-width: 1200px;
+    margin: 0;
     position: relative;
-    margin-right: auto;
-    margin-left: auto;
+    margin-top: 15px;
+    text-align: center;
 }
 
 .nav-container input{
