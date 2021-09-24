@@ -1,3 +1,39 @@
 * {
     font-family: arial;
 }
+
+
+/*cabeçalho: */
+nav{
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 165%;
+    z-index: 500;
+    background-color: rgb(54, 54, 54);
+    border-bottom: 1px solid rgb(148, 148, 148);
+}
+
+.nav-container{
+    max-width: 1200px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav-container input{
+    background-color: white;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 15px;
+    margin: 3 20px;
+    border-color: transparent;
+}
+
+.nav-container input[type=button]:hover{
+    background: rgb(20, 20, 19);
+    color: white;
+    transition: 1s;
+    top: 20px;
+}
+/* fim do cabeçalho */
