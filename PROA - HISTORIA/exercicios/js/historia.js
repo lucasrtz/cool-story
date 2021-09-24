@@ -17,10 +17,11 @@ function mudarEstilos()  {
     //Um exemplo de alteração de estilos por javascript: text.style.fontFamily = "Comic Sans MS";
     // font-family: banana;
     
-    text.style.fontFamily = "Comic Sans MS";
-    text.style.color = "white";
+    text.style.fontFamily = "Arial";
+    text.style.color = "green";
     text.style.padding = "20";
     text.style.backgroundColor = "#333";
+    text.style.fontSize = "15px";
 
 }
 
