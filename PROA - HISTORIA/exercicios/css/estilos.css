@@ -10,6 +10,7 @@ nav{
     height: 100px;
     width: 165%;
     z-index: 500;
+    margin-left: -20px;
     background-color: rgb(54, 54, 54);
     border-bottom: 1px solid rgb(148, 148, 148);
 }
@@ -26,7 +27,7 @@ nav{
     border-radius: 5px;
     padding: 8px 15px;
     font-size: 15px;
-    margin: 3 20px;
+    margin: 15px;
     border-color: transparent;
 }
 
@@ -37,3 +38,4 @@ nav{
     top: 20px;
 }
 /* fim do cabeçalho */
+
