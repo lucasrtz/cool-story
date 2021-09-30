@@ -37,13 +37,14 @@ nav{
     font-size: 15px;
     margin: 15px;
     border-color: transparent;
+    position: relative;
+    left: 10%;
 }
 
 .nav-container input[type=button]:hover{
     background: rgb(20, 20, 19);
     color: white;
     transition: 1s;
-    top: 20px;
 }
 .dark-mode {
     background-color: black;
