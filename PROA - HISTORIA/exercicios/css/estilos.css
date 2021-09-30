@@ -65,3 +65,14 @@ nav{
     top: 20px;
 }
 
+/* texto */
+
+h2, p {
+    align-items: center;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+/* texto */
