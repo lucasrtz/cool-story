@@ -15,7 +15,7 @@ nav{
     position: absolute;
     top: 0;
     height: 100px;
-    width: 102vw;
+    width: 101.6vw;
     z-index: 500;
     margin-left: -20px;
     background-color: rgb(54, 54, 54);
@@ -56,34 +56,40 @@ nav{
 /* botões de navegação */
  
 .botao1 {
-    background-color: white;
+    background-color: rgb(189, 189, 189);
     border-radius: 5px;
     padding: 5px 10px;
     font-size: 15px;
     margin: 15px;
     border-color: transparent;
+    position: relative;
+    left: 38%;
+    top: 50%;
+
 }
 
-.botao1 {
+.botao1:hover {
     background: rgb(20, 20, 19);
     color: white;
     transition: 0.7s;
-    top: 20px;
 }
 .botao2 {
-    background-color: white;
+    background-color: rgb(189, 189, 189);
     border-radius: 5px;
     padding: 5px 10px;
     font-size: 15px;
     margin: 15px;
     border-color: transparent;
+    position: relative;
+    left: 38%;
+    top: 50%;
+
 }
 
-.botao2 {
+.botao2:hover {
     background: rgb(20, 20, 19);
     color: white;
     transition: 0.7s;
-    top: 20px;
 }
 
 /* texto */
