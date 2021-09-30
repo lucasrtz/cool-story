@@ -56,38 +56,40 @@ nav{
 /* botões de navegação */
  
 .botao1 {
-    background-color: white;
+    background-color: rgb(189, 189, 189);
     border-radius: 5px;
     padding: 5px 10px;
     font-size: 15px;
     margin: 15px;
     border-color: transparent;
-}
-
-.botao1 {
-    background: rgb(20, 20, 19);
-    color: white;
-    transition: 0.7s;
     position: relative;
     left: 38%;
     top: 50%;
+
+}
+
+.botao1:hover {
+    background: rgb(20, 20, 19);
+    color: white;
+    transition: 0.7s;
 }
 .botao2 {
-    background-color: white;
+    background-color: rgb(189, 189, 189);
     border-radius: 5px;
     padding: 5px 10px;
     font-size: 15px;
     margin: 15px;
     border-color: transparent;
-}
-
-.botao2 {
-    background: rgb(20, 20, 19);
-    color: white;
-    transition: 0.7s;
     position: relative;
     left: 38%;
     top: 50%;
+
+}
+
+.botao2:hover {
+    background: rgb(20, 20, 19);
+    color: white;
+    transition: 0.7s;
 }
 
 /* texto */
