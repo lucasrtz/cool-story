@@ -50,7 +50,7 @@ nav{
 
 /* botões de navegação */
  
-#1, #2 [type=button]{
+.botao1, .botao2 [type=button]{
     background-color: white;
     border-radius: 5px;
     padding: 5px 10px;
@@ -59,7 +59,7 @@ nav{
     border-color: transparent;
 }
 
-#1, #2 [type=button]:hover {
+.botao1, .botao2 [type=button]:hover {
     background: rgb(20, 20, 19);
     color: white;
     transition: 0.7s;
