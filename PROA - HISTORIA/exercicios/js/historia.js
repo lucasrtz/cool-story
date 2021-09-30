@@ -1,8 +1,8 @@
-var conteudoA = "<img src='imagens/primeiratela.png' /> <h2>Bom dia dorminhoco!</h2> <p>Você acaba de acordar sozinho e sem bateria.</p> <p>Você quer dormir?</p> <p>Botão da esquerda - Sim</p> <p>Botão da direita - Não, eu quero uma aventura meu colega</p> <button class='botao1' onclick='carregarConteudo(conteudoB1)'>Ir para a Direita</button> <button class='botao2'onclick='carregarConteudo(conteudoB2)'>Ir para a Esquerda</button>"
+var conteudoA = "<img class='imagem' src='imagens/primeiratela.png' /> <h2>Bom dia dorminhoco!</h2> <p>Você acaba de acordar sozinho e sem bateria.</p> <p>Você quer dormir ou quer ir em busca de uma aventura?</p> <button class='botao1' onclick='carregarConteudo(conteudoB1)'>Ir dormir</button> <button class='botao1'onclick='carregarConteudo(conteudoB2)'>Uma aventura</button>"
 
-var conteudoB1 = "<img src='imagens/wastedprimeiratela.png' /> <h2>Robô bahia kk</h2>  <p>ZzZZZZZzzzZzZZzzzzZ</p><button class='botao1' onclick='carregarConteudo(conteudoA)'>Ir para a Direita</button> <button class='botao2' onclick='carregarConteudo(conteudoA)'>Ir para a Esquerda</button>";
+var conteudoB1 = "<img class='imagem' src='imagens/wastedprimeiratela.png' /> <h2>Quanta preguiça!</h2>  <p>ZzZzzZZzzzZzZZzzzzZ a mimir</p>";
 
-var conteudoB2 = "<img src='imagens/segundatela.png' />  <h2>Então você quer ir atrás da bateria</h2> <p>Qual caminho?</p> <button class='botao1' onclick='carregarConteudo(conteudoC3)'>Ir para a Direita</button> <button id='2' onclick='carregarConteudo(conteudoC4)'>Ir para a Esquerda</button>";
+var conteudoB2 = "<img class='imagem' src='imagens/segundatela.png' />  <h2>Então você quer uma aventura</h2> <p>Você irá em uma aventura em busca da sua bateria.</p> <p>Qual caminho você quer?</p> <button class='botao1' onclick='carregarConteudo(conteudoC3)'>Continuar na rua</button> <button class='botao1' onclick='carregarConteudo(conteudoC4)'>Ir para a floresta</button>";
 
 var elemento = document.getElementById("conteudo");
 
