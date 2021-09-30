@@ -38,7 +38,7 @@ nav{
     margin: 15px;
     border-color: transparent;
     position: relative;
-    left: 10%;
+    left: 85px;
 }
 
 .nav-container input[type=button]:hover{
