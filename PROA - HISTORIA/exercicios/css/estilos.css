@@ -3,7 +3,9 @@
     margin: 0px;
     overflow: hidden;
 }
-
+body{
+    background-color: rgba(241, 241, 241, 0.788);
+}
 
 /*cabeçalho: */
 img{
@@ -47,10 +49,10 @@ nav{
     transition: 1s;
 }
 .dark-mode {
-    background-color: black;
+    background-color: rgb(26, 26, 26);
     color: white;}
     .white-mode{
-        background-color: white;
+        background-color: rgb(197, 197, 197);
         color: black;
     }
 /* fim do cabeçalho */
