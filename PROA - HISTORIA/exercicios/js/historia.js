@@ -2,7 +2,7 @@ var conteudoA = "<img src='imagens/primeiratela.png' /> <h2>Bom dia dorminhoco!<
 
 var conteudoB1 = "<img src='imagens/wastedprimeiratela.png' /> <h2>Robô bahia kk</h2>  <p>ZzZZZZZzzzZzZZzzzzZ</p><button class='botao1' onclick='carregarConteudo(conteudoA)'>Ir para a Direita</button> <button class='botao2' onclick='carregarConteudo(conteudoA)'>Ir para a Esquerda</button>";
 
-var conteudoB2 = "<img src='imagens/segundatela.png' />  <h2>Então você quer ir atrás da bateria</h2> <p>Qual caminho?</p> <button class='botao1' onclick='carregarConteudo(conteudoC3)'>Ir para a Direita</button> <button id='2' onclick='carregarConteudo(conteudoC4)'>Ir para a Esquerda</button>";
+var conteudoB2 = "<img src='imagens/segundatela.png' />  <h2>Então você quer ir atrás da bateria</h2> <p>Qual caminho?</p> <button class='botao1' onclick='carregarConteudo(conteudoC3)'>Ir para a Direita</button> <button class='botao2' onclick='carregarConteudo(conteudoC4)'>Ir para a Esquerda</button>";
 
 var elemento = document.getElementById("conteudo");
 
