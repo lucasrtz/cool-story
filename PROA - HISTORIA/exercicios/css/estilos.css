@@ -86,12 +86,14 @@ nav{
     top: 20px;
 }
 
-/* texto */ 
+/* texto */
 
 h2, p {
-    text-align: center;
+    align-items: center;
 }
 
 h2 {
     margin-top: 10px;
 }
+
+/* texto */
