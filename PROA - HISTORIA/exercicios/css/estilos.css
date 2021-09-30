@@ -5,6 +5,12 @@
 
 
 /*cabeçalho: */
+img{
+    width: 40%;
+    position: relative;
+    left: 30%;
+    top: 50%;
+}
 nav{
     position: absolute;
     top: 0;
@@ -49,7 +55,7 @@ nav{
 
 /* botões de navegação */
  
-.botao1 [type=button]{
+.botao1 {
     background-color: white;
     border-radius: 5px;
     padding: 5px 10px;
@@ -58,7 +64,22 @@ nav{
     border-color: transparent;
 }
 
-.botao1 [type=button]:hover {
+.botao1 {
+    background: rgb(20, 20, 19);
+    color: white;
+    transition: 0.7s;
+    top: 20px;
+}
+.botao2 {
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 15px;
+    margin: 15px;
+    border-color: transparent;
+}
+
+.botao2 {
     background: rgb(20, 20, 19);
     color: white;
     transition: 0.7s;
