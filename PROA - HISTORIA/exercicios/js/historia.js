@@ -1,8 +1,16 @@
-var conteudoA = "<img class='imagem' src='imagens/primeiratela.png' /> <h2>Bom dia dorminhoco!</h2> <p>Você acaba de acordar sozinho e sem bateria.</p> <p>Você quer dormir ou quer ir em busca de uma aventura?</p> <button class='botao1' onclick='carregarConteudo(conteudoB1)'>Ir dormir</button> <button class='botao1'onclick='carregarConteudo(conteudoB2)'>Uma aventura</button>"
+var conteudoA = "<img class='imagem' src='imagens/primeiratela.png' /> <h2>Bom dia dorminhoco!</h2> <p>Você acorda e se depara em um lugar desconhecido e consta que esta com pouca bateria.</p> <p>Você sai em busca de recarregar suas forças, ou prefere dormir mais para poupar energia?</p> <button class='botao1' onclick='carregarConteudo(conteudoB1)'>Ir dormir</button> <button class='botao1'onclick='carregarConteudo(conteudoB2)'>Uma aventura</button>"
 
-var conteudoB1 = "<img class='imagem' src='imagens/wastedprimeiratela.png' /> <h2>Quanta preguiça!</h2>  <p>ZzZzzZZzzzZzZZzzzzZ a mimir</p>";
+var conteudoB1 = "<img class='imagem' src='imagens/wastedprimeiratela.png' /> <h2>Final ruim: Parece que você não é muito inteligente.</h2>  <p>O que você esperava que acontecesse? Recarregasse sua energia dormindo?</p> <p>Caso não tenha notado você é um robô, não vai ganhar uma bateria de graça.</p>";
 
-var conteudoB2 = "<img class='imagem' src='imagens/segundatela.png' />  <h2>Então você quer uma aventura</h2> <p>Você irá em uma aventura em busca da sua bateria.</p> <p>Qual caminho você quer?</p> <button class='botao1' onclick='carregarConteudo(conteudoC3)'>Continuar na rua</button> <button class='botao1' onclick='carregarConteudo(conteudoC4)'>Ir para a floresta</button>";
+var conteudoB2 = "<img class='imagem' src='imagens/segundatela222.png' />  <h2>Então você quer uma aventura?</h2> <p>Okay bonitão, gostei da atitude de ir em busca do que precisa.</p> <p>Agora tem duas opções, você vai se manter na cidade ou seguir para a floresta?</p> <button class='botao1' onclick='carregarConteudo(conteudoC1)'>Continuar na cidade</button> <button class='botao1' onclick='carregarConteudo(conteudoC2)'>Ir para a floresta</button>";
+
+var conteudoC1 = "<img class='imagem' src='imagens/segundatela.png' />  <h2>Two strange Noia in a moto appears!</h2> <p>Durante uma jornada intempéries podem surgir, ou neste caso, dois caras em uma moto.</p> <p>Você decide reagir ao assalto?</p> <button class='botao1' onclick='carregarConteudo(conteudoD1)'>Irei reagir</button> <button class='botao1' onclick='carregarConteudo(conteudoD2)'>Não irei reagir</button>";
+
+var conteudoD1 = "<img class='imagem' src='imagens/terceiratela.png' />  <h2>Parabéns pela coragem, porque senso...</h2> <p>Você decide enfrentar os noias com o seu ULTRA CANÃO DE PLASMA SUPERFREACKINGBLASTERMEGAPOWEROBLITERATORNATOR (pilhas não inclusas).</p> <button class='botao1' onclick='carregarConteudo(conteudoE1)'>Continuar</button>";
+
+var conteudoD2 = "<img class='imagem' src='imagens/wastedsegundatela.png' />  <h2>Final ruim: Foi roubado otaro!</h2> <p>os cara vazaru com tua unica bateria, se fu#@! parcero, agora tu ta é morto, vai virar sucata.</p>";
+
+var conteudoE1 = "<img class='imagem' src='imagens/quartatela.gif' /> <h2>E o obvio acontece.</h2> <p>Eles fogem</p> <button class='botao1' onclick='carregarConteudo(conteudoF1)'>Continuar</button>";
 
 var elemento = document.getElementById("conteudo");
 
