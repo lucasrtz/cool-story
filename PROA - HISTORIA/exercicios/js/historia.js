@@ -1,12 +1,12 @@
-var conteudoA = "<img src='imagens/iron-giant1.jpg' /> <h2>Conteudo A</h2> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et quam gravida, sodales nunc non, egestas urna. Nulla quis feugiat libero, eget sollicitudin erat. Pellentesque vulputate arcu at sapien tristique, non bibendum diam aliquam. Quisque at facilisis neque. Integer pretium, ex et consectetur laoreet, turpis magna feugiat velit, ac efficitur odio tortor sed sem. Donec vel leo maximus nisl convallis ornare sit amet id quam. Donec porta aliquet elementum.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et quam gravida, sodales nunc non, egestas urna. Nulla quis feugiat libero, eget sollicitudin erat. Pellentesque vulputate arcu at sapien tristique, non bibendum diam aliquam. Quisque at facilisis neque. Integer pretium, ex et consectetur laoreet, turpis magna feugiat velit, ac efficitur odio tortor sed sem. Donec vel leo maximus nisl convallis ornare sit amet id quam. Donec porta aliquet elementum.</p> <button onclick='carregarConteudo(conteudoB1)'>Ir para a Direita</button> <button onclick='carregarConteudo(conteudoB2)'>Ir para a Esquerda</button>";
+var conteudoA = "<img src='imagens/primeiratela.png' /> <h2>Bom dia dorminhoco!</h2> <p>Você acaba de acordar sozinho e sem bateria.</p> <p>Você quer dormir?</p> <p>Botão da esquerda - Sim</p> <p>Botão da direita - Não, eu quero uma aventura meu colega</p> <button id='1' onclick='carregarConteudo(conteudoB1)'>Ir para a Direita</button> <button id='2'onclick='carregarConteudo(conteudoB2)'>Ir para a Esquerda</button>"
 
-var conteudoB1 = "<img src='imagens/iron-giant2.jpg' /> <h2>Conteudo B1</h2>  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et quam gravida, sodales nunc non, egestas urna. Nulla quis feugiat libero, eget sollicitudin erat. Pellentesque vulputate arcu at sapien tristique, non bibendum diam aliquam. Quisque at facilisis neque. Integer pretium, ex et consectetur laoreet, turpis magna feugiat velit, ac efficitur odio tortor sed sem. Donec vel leo maximus nisl convallis ornare sit amet id quam. Donec porta aliquet elementum.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et quam gravida, sodales nunc non, egestas urna. Nulla quis feugiat libero, eget sollicitudin erat. Pellentesque vulputate arcu at sapien tristique, non bibendum diam aliquam. Quisque at facilisis neque. Integer pretium, ex et consectetur laoreet, turpis magna feugiat velit, ac efficitur odio tortor sed sem. Donec vel leo maximus nisl convallis ornare sit amet id quam. Donec porta aliquet elementum.</p> <button onclick='carregarConteudo(conteudoC1)'>Ir para a Direita</button> <button onclick='carregarConteudo(conteudoC2)'>Ir para a Esquerda</button>";
+var conteudoB1 = "<img src='imagens/wastedprimeiratela.png' /> <h2>Robô bahia kk</h2>  <p>ZzZZZZZzzzZzZZzzzzZ</p><button id='1' onclick='carregarConteudo(conteudoA)'>Ir para a Direita</button> <button id='2' onclick='carregarConteudo(conteudoA)'>Ir para a Esquerda</button>";
 
-var conteudoB2 = "<img src='imagens/iron-giant3.jpg' />  <h2>Conteudo B3</h2> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et quam gravida, sodales nunc non, egestas urna. Nulla quis feugiat libero, eget sollicitudin erat. Pellentesque vulputate arcu at sapien tristique, non bibendum diam aliquam. Quisque at facilisis neque. Integer pretium, ex et consectetur laoreet, turpis magna feugiat velit, ac efficitur odio tortor sed sem. Donec vel leo maximus nisl convallis ornare sit amet id quam. Donec porta aliquet elementum.</p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et quam gravida, sodales nunc non, egestas urna. Nulla quis feugiat libero, eget sollicitudin erat. Pellentesque vulputate arcu at sapien tristique, non bibendum diam aliquam. Quisque at facilisis neque. Integer pretium, ex et consectetur laoreet, turpis magna feugiat velit, ac efficitur odio tortor sed sem. Donec vel leo maximus nisl convallis ornare sit amet id quam. Donec porta aliquet elementum.</p> <button onclick='carregarConteudo(conteudoC3)'>Ir para a Direita</button> <button onclick='carregarConteudo(conteudoC4)'>Ir para a Esquerda</button>";
+var conteudoB2 = "<img src='imagens/segundatela.png' />  <h2>Então você quer ir atrás da bateria</h2> <p>Qual caminho?</p> <button id='1' onclick='carregarConteudo(conteudoC3)'>Ir para a Direita</button> <button id='2' onclick='carregarConteudo(conteudoC4)'>Ir para a Esquerda</button>";
 
 var elemento = document.getElementById("conteudo");
 
-function carregarConteudo(conteudo){
+function carregarConteudo(conteudo) {
     elemento.innerHTML = conteudo;
 }
 
@@ -31,6 +31,13 @@ function mudarEstilosNot() {
   function mudarEstilosClaro() {
     var element = document.body;
     element.classList.toggle("dark-mode");
+  }
+
+  var i = 1; 
+  var timer = setInterval(function() {(i++)}, 1000)
+
+  if (i == 15){
+    alert("otacos")
   }
 
 carregarConteudo(conteudoA)
