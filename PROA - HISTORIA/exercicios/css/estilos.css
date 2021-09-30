@@ -48,3 +48,21 @@ nav{
     }
 /* fim do cabeçalho */
 
+/* botões de navegação */
+ 
+#1, #2 [type=button]{
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 15px;
+    margin: 15px;
+    border-color: transparent;
+}
+
+#1, #2 [type=button]:hover {
+    background: rgb(20, 20, 19);
+    color: white;
+    transition: 0.7s;
+    top: 20px;
+}
+
