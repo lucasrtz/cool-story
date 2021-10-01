@@ -6,7 +6,7 @@ var conteudoB2 = "<img class='imagem' src='imagens/segundatela222.png' />  <h2>E
 
 var conteudoC1 = "<img class='imagem' src='imagens/segundatela.png' />  <h2>Two strange Noia in a moto appears!</h2> <p>Durante uma jornada intempéries podem surgir, ou neste caso, dois caras em uma moto.</p> <p>Você decide reagir ao assalto?</p> <button class='botao1' onclick='carregarConteudo(conteudoD1)'>Irei reagir</button> <button class='botao1' onclick='carregarConteudo(conteudoD2)'>Não irei reagir</button>";
 
-var conteudoC2 = "<img class='imagem' src='imagens/robofloresta.png' /> <h2></h2> <p></p> <button onclick='carregarConteudo(conteudoD3)'>Continuar</button>"
+var conteudoC2 = "<img class='imagem' src='imagens/robofloresta.png' /> <h2></h2> <p></p> <button class='botao1' onclick='carregarConteudo(conteudoD3)'>Continuar</button>"
 
 var conteudoD1 = "<img class='imagem' src='imagens/terceiratela.png' />  <h2>Parabéns pela coragem, porque senso...</h2> <p>Você decide enfrentar os noias com o seu ULTRA CANÃO DE PLASMA SUPERFREACKINGBLASTERMEGAPOWEROBLITERATORNATOR (pilhas não inclusas).</p> <button class='botao1' onclick='carregarConteudo(conteudoE1)'>Continuar</button>";
 
@@ -20,21 +20,31 @@ var conteudoE2 = "<img class='imagem' src='imagens/robocriancagatinho.png' /> <h
 
 var conteudoF1 = "<img class='imagem' src='imagens/quintatela.gif' /> <h2>IH SERJÃO SUJOU!!!!!!</h2> <p>Os tiras viram a treta toda e chegaram pra te prender, você vai tentar fugir?</p> <button class='botao1' onclick='carregarConteudo(conteudoG1)'>Sim</button> <button class='botao1' onclick='carregarConteudo(conteudoG2)'>Não</button>";
 
-var conteudoF2 = "<img class='imagem' src='imagens/robocriancagatinho.png' /> <h2></h2> <p></p> <button class='botao1' onclick='carregarConteudo(conteudoF2)'>Continuar</button> <button class='botao1' onclick='carregarConteudo(conteudoF3)'>Continuar</button>";
+var conteudoF2 = "<img class='imagem' src='imagens/aliendaogato.png' /> <h2></h2> <p></p> <button class='botao1' onclick='carregarConteudo(conteudoG3)'>Continuar</button> <button class='botao1' onclick='carregarConteudo(conteudoG4)'>Continuar</button>";
 
-var conteudoF3 = "<img class='imagem' src='imagens/robocriancagatinho.png' /> <h2></h2> <p></p> <button class='botao1' onclick='carregarConteudo(conteudoF2)'>Continuar</button> <button class='botao1' onclick='carregarConteudo(conteudoF3)'>Continuar</button>";
+var conteudoF3 = "<img class='imagem' src='imagens/robocriancagatinho.png' /> <h2></h2> <p></p> <button class='botao1' onclick='carregarConteudo(conteudoE2)'>Voltar</button>";
 
 var conteudoG1 = "<img class='imagem' src='imagens/setimatela.png' /> <h2>Final ruim: Memória fraca.</h2> <p>Acho que você esqueceu mas não tinha mais quase nada de bateria sobrando.</p> <p>Na tentativa de fugir você acaba morto sem energia e, ainda pior, preso.</p>";
 
 var conteudoG2 = "<img class='imagem' src='imagens/policia.png' /> <h2>Enquadrado!</h2> <p>Você rouba a bateria da viatura para conseguir mais energia?</p> <button class='botao1' onclick='carregarConteudo(conteudoH1)'>Sim</button> <button class='botao1' onclick='carregarConteudo(conteudoH2)'>Não</button>";
 
+var conteudoG3 = "<img class='imagem' src='imagens/robocriancagatinho.png' /> <h2></h2> <p></p> <button class='botao1' onclick='carregarConteudo(conteudoH3)'>Continuar</button>"
+
+var conteudoG4 = "<img class='imagem' src='imagens/robomeninoealien.png' /> <h2></h2> <p></p>";
+
 var conteudoH1 = "<img class='imagem' src='imagens/oitavatela.png' /> <h2>Apologia ao crime!</h2> <p>Como um criminoso sem controle você rouba a bateria da viatura, restaurando sua energia.</p> <button class='botao1' onclick='carregarConteudo(conteudoI1)'>Continuar</button>";
 
 var conteudoH2 = "<img class='imagem' src='imagens/sextatela.png' /> <h2>Final ruim: Nem sempre o certo da certo.</h2> <p>Como um cidadão exemplar você decide dialogar com as autoridades.</p> <p>Isso resulta em você apanhar de cassetete por 45 minutos e ainda ser preso.</p>";
 
+var conteudoH3 = "<img class='imagem' src='imagens/robonacaverna.png' /> <h2></h2> <p></p> <button class='botao1' onclick='carregarConteudo(conteudoI2)'>Continuar</button> <button class='botao1' onclick='carregarConteudo(conteudoI2)'>Continuar</button>"
+
 var conteudoI1 = "<img class='imagem' src='imagens/robovoacombateria.png' /> <h2>Liberdade (será?)</h2> <p>com isso você sai voando em direção em uma nova jornada, mas os policias não estão satisfeitos. Eles convocam sua mais poderosa arma...</p> <button class='botao1' onclick='carregarConteudo(conteudoJ1)'>Continuar</button>";
 
+var conteudoI2 = "<img class='imagem' src='imagens/insidecave.png' /> <h2></h2> <p></p> <button class='botao1' onclick='carregarConteudo(conteudoJ2)'>Continuar</button>"
+
 var conteudoJ1 = "<img class='imagem' src='imagens/robo x robocop.png' /> <h2>O BOLOCOP!</h2> <p>Quando esta próximo de fugir daquele lugar estranho você encontra ele, o mais temido de todos os policiais, aquele que nunca foi derrotado, que nunca deixou um vagabundo fugir, que é fã de pokémon nas horas vagas, que tem um total de 1143 casos bem sucedidos, o agente C477OT-C4K3 também conhecido como Bolocop.</p> <p>Sua única opção é enfrenta-lo com sua arma mais poderosa, você usa o ULTRA CANÃO DE PLASMA SUPERFREACKINGBLASTERMEGAPOWEROBLITERATORNATOR (pilhas não inclusas) ou a granada de mão?</p> <button class='botao1' onclick='carregarConteudo(conteudoK1)'>Ultra canão</button> <button class='botao1' onclick='carregarConteudo(conteudoK2)'>Granada de mão</button>";
+
+var conteudoJ2 = "<img class='imagem' src='imagens/videofinalyoshi.mp4' /> <h2>End</h2> <p></p>";
 
 var conteudoK1 = "<img class='imagem' src='imagens/robo ganhou do robobolo.png' /> <h2></h2> <p></p> <button class='botao1' onclick='carregarConteudo(conteudoL1)'>Continuar</button>";
 
