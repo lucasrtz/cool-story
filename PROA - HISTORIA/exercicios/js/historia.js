@@ -40,7 +40,7 @@ var conteudoH3 = "<img class='imagem' src='imagens/insidecave.png' /> <h2>A GRUT
 
 var conteudoI1 = "<img class='imagem' src='imagens/robovoacombateria.png' /> <h2>Liberdade (será?)</h2> <p>com isso você sai voando em direção em uma nova jornada, mas os policias não estão satisfeitos. Eles convocam sua mais poderosa arma...</p> <button class='botao1' onclick='carregarConteudo(conteudoJ1)'>Continuar</button>";
 
-var conteudoI2 = "<embed class='imagem' src='imagens/videofinalyoshi.mp4' autostart='true'/> <h2>E você encontra...</h2>";
+var conteudoI2 = "<embed class='imagem' src='imagens/videofinalcompressed.mp4' autostart='true'/> <h2>E você encontra...</h2>";
 
 var conteudoI3 = "<img class='imagem' src='imagens/yoshi.jpg' /> <h2>FINAL PESSIMO:</h2> <p>TU TA DE BRINCADEIRA NÉ?</p>"
 
