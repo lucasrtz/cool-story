@@ -30,6 +30,9 @@ nav{
     position: relative;
     margin-top: 3px;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .nav-container input{
@@ -58,6 +61,15 @@ nav{
 /* fim do cabeçalho */
 
 /* botões de navegação */
+
+.bots{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
  
 .botao1 {
     background-color: rgb(189, 189, 189);
@@ -66,7 +78,6 @@ nav{
     font-size: 15px;
     margin: 15px;
     border-color: transparent;
-    position: relative;
     left: 41%;
     top: 50%;
 
@@ -84,10 +95,8 @@ nav{
     font-size: 15px;
     margin: 15px;
     border-color: transparent;
-    position: relative;
     left: 41%;
     top: 50%;
-
 }
 
 .botao2:hover {
@@ -107,3 +116,7 @@ h2 {
 }
 
 /* texto */
+
+img{
+    text-align: center;
+}
